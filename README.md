@@ -24,6 +24,8 @@ Right Ctrl + Alt+Tab
 
 **Salt install**
 
+deb http://debian.saltstack.com/debian/ wheezy-saltstack main
+
 wget -q -O- "http://debian.saltstack.com/debian-salt-team-joehealy.gpg.key" | apt-key add -
 
 
