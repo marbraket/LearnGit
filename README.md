@@ -4,6 +4,9 @@ LearnMisc
 **Git**
 
     apt-get install git
+    git config --global user.name markuskramerIgitt
+    git config --system core.editor emacs
+    git clone https://github.com/....
 install
 
     git pull; 
@@ -20,6 +23,7 @@ Right Ctrl + Alt+Tab
 
 
 **Salt install**
+
 wget -q -O- "http://debian.saltstack.com/debian-salt-team-joehealy.gpg.key" | apt-key add -
 
 
