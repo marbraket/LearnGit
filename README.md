@@ -1,16 +1,9 @@
 LearnGit
 ========
 
-kjhjklh
-lkjlökjlhöll
+git add .
+git commit -a -m "."
 
 
-68768976
-0989080ßß´08
-
-0989089078
-
-
-lknjlök n
-
-lökj 
+git pull 
+git push
