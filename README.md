@@ -26,11 +26,8 @@ Right Ctrl + Alt+Tab
 **Salt install**
 
 emacs /etc/apt/sources.list
-
 deb http://debian.saltstack.com/debian/ wheezy-saltstack main
-
 wget -q -O- "http://debian.saltstack.com/debian-salt-team-joehealy.gpg.key" | apt-key add -
-
-
+apt-get update
 apt-get install salt-master
 
