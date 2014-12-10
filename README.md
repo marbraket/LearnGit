@@ -1,6 +1,5 @@
 LearnMisc...
 ========
-aaaaabbb
 
 **Git**
 
