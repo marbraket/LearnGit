@@ -6,7 +6,8 @@ LearnMisc...
     apt-get install git
     git config --global user.name markuskramerIgitt
     git config --system core.editor emacs
-    git clone https://github.com/....
+    git clone https://github.com/xyz.git
+    git config --global http.proxy xyz
 install
 
     git pull; 
