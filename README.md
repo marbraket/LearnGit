@@ -34,3 +34,6 @@ Diff what is added but not comitted
     git diff --cached
 
 
+
+
+ach ja
