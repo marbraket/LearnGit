@@ -28,10 +28,12 @@ Upload
 
 
 Status (added files, unadded changes)
+
     git status
 
 
 Diff what is added but not comitted
+
     git diff --cached
 
 
