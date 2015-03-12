@@ -24,7 +24,6 @@ Download
 Upload 
 
     git add .; git commit -a -m "."; git push
-or
     git push --repo https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
 
 
