@@ -26,3 +26,11 @@ Upload
     git add .; git commit -a -m "."; git push
 
 
+Status (added files, unadded changes)
+    git status
+
+
+Diff what is added but not comitted
+    git diff --cached
+
+
