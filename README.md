@@ -37,3 +37,7 @@ Diff what is added but not comitted
     git diff --cached
 
 
+Discard local changes
+    git checkout FILE
+    git checkout -- .
+
