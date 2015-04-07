@@ -38,6 +38,7 @@ Diff what is added but not comitted
 
 
 Discard local changes
+
     git checkout FILE
     git checkout -- .
 
