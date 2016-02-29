@@ -12,10 +12,11 @@ Install MacOS 10.6
 Setup
 
     git config --global user.name markuskramerIgitt
-	git config --global user.email you@example.com
+    git config --global user.email you@example.com
     git config --system core.editor emacs
     git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
     git config --global http.proxy xyz
+    git config --global push.default simple
 
 Download
 
