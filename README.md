@@ -14,8 +14,8 @@ Setup
     git config --global user.name markuskramerIgitt
     git config --global user.email you@example.com
     git config --system core.editor emacs
+ ONLY FOR QUICK AND DIRTY SETUPS - password readable:
     git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
-       DONT - password readable!
     git clone https://github.com/markuskramerIgitt/Magni.git
     git config --global credential.helper cache
     git config --global credential.helper "cache --timeout=3600"
