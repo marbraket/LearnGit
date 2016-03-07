@@ -50,6 +50,7 @@ Diff what is added but not "comitted".
 
 Diff what is "comitted" but not "pushed"?
 
+     TODO
 
 Discard local changes? 
 
