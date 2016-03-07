@@ -14,16 +14,17 @@ Setup
     git config --global user.name markuskramerIgitt
     git config --global user.email you@example.com
     git config --system core.editor emacs
- ONLY FOR QUICK AND DIRTY SETUPS - password readable:
-    git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
-    git clone https://github.com/markuskramerIgitt/Magni.git
-    git config --global credential.helper cache
-    git config --global credential.helper "cache --timeout=3600"
-       DOES NOT WORK ON WINDOWS
-    git config --global credential.helper wincred
-       ???
-    git config --global http.proxy xyz
     git config --global push.default simple
+    git config --global http.proxy xyz
+    if you want to store your password as plain text:
+       git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
+    else:
+      git clone https://github.com/markuskramerIgitt/Magni.git
+      if on unix:
+        git config --global credential.helper cache
+        git config --global credential.helper "cache --timeout=3600"
+      if on windows:
+        git config --global credential.helper wincred
 
 Download
 
