@@ -1,13 +1,12 @@
 LearnGit
 ========
 	
-Install Debian 
+Install
 
-    apt-get install git 
-
-Install MacOS 10.6
-
-    git Version 2.2.1 from http://git-scm.com/
+    IF ON Debian:
+      apt-get install git 
+    IF ON MacOS 10.6:
+      git Version 2.2.1 from http://git-scm.com/
 
 Setup
 
@@ -17,7 +16,7 @@ Setup
     git config --global push.default simple
     git config --global http.proxy xyz
     IF YOU WANT TO STORE YOUR PASSWORD AS PLAIN TEXT:
-       git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/LearnGit.git
+      git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/LearnGit.git
     ELSE:
       git clone https://github.com/markuskramerIgitt/LearnGit.git
       IF ON UNIX:
@@ -33,7 +32,6 @@ Download
 Upload 
 
     git add .; git commit -a -m "."; git push
-    git push --repo https://markuskramerIgitt:*******@github.com/markuskramerIgitt/LearnGit.git
 
 
 Status (added files, unadded changes)
@@ -50,10 +48,10 @@ Diff what is added but not "comitted".
 
     git diff --cached
 
-Diff what is "comitted" but not "pushed"  ?????????????????????????????????????????????????????????????????????????
+Diff what is "comitted" but not "pushed"?
 
 
-Discard local changes
+Discard local changes? 
 
     git checkout FILE
     git checkout -- .
