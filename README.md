@@ -16,6 +16,9 @@ Setup
     git config --system core.editor emacs
     git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
        DONT - password readable!
+    git clone https://github.com/markuskramerIgitt/Magni.git
+    git config --global credential.helper cache
+    git config --global credential.helper "cache --timeout=3600"
     git config --global http.proxy xyz
     git config --global push.default simple
 
