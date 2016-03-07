@@ -16,14 +16,14 @@ Setup
     git config --system core.editor emacs
     git config --global push.default simple
     git config --global http.proxy xyz
-    if you want to store your password as plain text:
-       git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
-    else:
-      git clone https://github.com/markuskramerIgitt/Magni.git
-      if on unix:
+    IF YOU WANT TO STORE YOUR PASSWORD AS PLAIN TEXT:
+       git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/LearnGit.git
+    ELSE:
+      git clone https://github.com/markuskramerIgitt/LearnGit.git
+      IF ON UNIX:
         git config --global credential.helper cache
         git config --global credential.helper "cache --timeout=3600"
-      if on windows:
+      IF ON WINDOWS:
         git config --global credential.helper wincred
 
 Download
@@ -33,7 +33,7 @@ Download
 Upload 
 
     git add .; git commit -a -m "."; git push
-    git push --repo https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
+    git push --repo https://markuskramerIgitt:*******@github.com/markuskramerIgitt/LearnGit.git
 
 
 Status (added files, unadded changes)
