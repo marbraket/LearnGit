@@ -15,6 +15,7 @@ Setup
     git config --global user.email you@example.com
     git config --system core.editor emacs
     git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/Magni.git
+       DONT - password readable!
     git config --global http.proxy xyz
     git config --global push.default simple
 
