@@ -19,6 +19,7 @@ Setup
     git clone https://github.com/markuskramerIgitt/Magni.git
     git config --global credential.helper cache
     git config --global credential.helper "cache --timeout=3600"
+       DOES NOT WORK
     git config --global http.proxy xyz
     git config --global push.default simple
 
