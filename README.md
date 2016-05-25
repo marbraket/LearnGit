@@ -7,7 +7,8 @@ Install
       apt-get install git 
     IF ON MacOS 10.6:
       git Version 2.2.1 from http://git-scm.com/
-
+    IF ON Windows:
+      browse to https://git-scm.com/download/win
 Setup
 
     git config --global user.name markuskramerIgitt
