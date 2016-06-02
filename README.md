@@ -16,6 +16,9 @@ Setup
     git config --system core.editor emacs
     git config --global push.default simple
     git config --global http.proxy xyz
+    
+Download the first time  (password)
+
     IF YOU WANT TO STORE YOUR PASSWORD AS PLAIN TEXT:
       git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/LearnGit.git
     ELSE:
@@ -26,7 +29,11 @@ Setup
       IF ON WINDOWS:
         git config --global credential.helper wincred
 
-Download
+Download the first time    (branch)
+
+    git clone -b 2015.5 --single-branch https://github.com/saltstack/salt.git
+
+Download again
 
     git pull; 
 
