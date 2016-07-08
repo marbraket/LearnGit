@@ -42,6 +42,14 @@ Upload
     git add .; git commit -a -m "."; git push
 
 
+Add file gold.txt to the local "thingy"
+    git add gold.txt
+		
+
+Undo add file gold.txt to the local "thingy"
+    git reset HEAD gold.txt
+		
+
 Status (added files, unadded changes)
 
     git status
