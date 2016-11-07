@@ -76,3 +76,7 @@ Discard local changes?
     git checkout FILE
     git checkout -- .
 
+Show all tags (tags in Salt start with v)
+
+    git tag -l
+    
