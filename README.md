@@ -83,7 +83,7 @@ Show all tags (tags in Salt start with v)
 
 Update SaltStack branch
 
-    git checkout  branch1
+    git checkout branch1
     git rebase develop
     git pull
     git push
