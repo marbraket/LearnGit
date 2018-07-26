@@ -80,3 +80,7 @@ Show all tags (tags in Salt start with v)
 
     git tag -l
     
+
+Links
+
+https://jamesmckay.net/2016/02/signing-git-commits-with-gpg-on-windows/
