@@ -1,4 +1,4 @@
-
+```
 
 |----------------------------------------------------------------------------+---------------------------------------------------|
 | * * * Setup local blob of salt                                             |                                                   |
@@ -58,3 +58,6 @@
 | git clean -fxd                                                             |                                                   |
 | git checkout develop                                                       |                                                   |
 | git cherry-pick 9a2ef46                                                    | setup_py_should_not_print_each_file               |
+
+
+```
