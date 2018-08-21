@@ -2,9 +2,9 @@
 
 #### Setup salt
 
-git clone https://github.com/markuskramerIgitt/salt.git
-git remote add upstream https://github.com/saltstack/salt.git
-git remote -vv
+    git clone https://github.com/markuskramerIgitt/salt.git
+    git remote add upstream https://github.com/saltstack/salt.git
+    git remote -vv
 
 
 #### Update salt
