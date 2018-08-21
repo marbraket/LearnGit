@@ -1,10 +1,12 @@
+
+
+### Setup local blob of salt
+
 ```
 
-|----------------------------------------------------------------------------+---------------------------------------------------|
-| * * * Setup local blob of salt                                             |                                                   |
-| git clone https://github.com/markuskramerIgitt/salt.git                    | 0.1 Get local Salt repository                     |
-| git remote add upstream https://github.com/saltstack/salt.git              | 0.2 Define upstream for salt                      |
-| git remote -vv                                                             | 0.3 Verify origin=markus upstream=Salt            |
+git clone https://github.com/markuskramerIgitt/salt.git
+git remote add upstream https://github.com/saltstack/salt.git
+git remote -vv
 
 
 
