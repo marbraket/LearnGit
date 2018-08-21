@@ -24,10 +24,10 @@
 
 #### Revert changes
 
-    git checkout .                                                             | revert changes on your working copy               |
-    git clean -n                                                               | show delete                                       | 
-    git clean -f                                                               | delete files                                      |   
-    git clean -fd                                                              | delete file and folders                           |   
+    git checkout .    | revert changes on your working copy
+    git clean -n      | show delete
+    git clean -f      | delete files
+    git clean -fd     | delete file and folders
 
 #### Bizarr, Restart fork?
 
@@ -52,17 +52,18 @@
 
 #### Else
 
-| git checkout -b PIECE_OF_WORK upstream/develop                             | local branch for new things                       |
-| git checkout -b PIECE_OF_WORK upstream/2015.8                              | local branch for bug fixes                        |
-| git branch -d the_local_branch_you_want_to_delete                          |                                                   |
-| git branch setup_py_should_not_print_each_file                             |                                                   |
-| git checkout setup_py_should_not_print_each_file                           |                                                   |
-| git commit -a                                                              |                                                   |
-| git log                                                                    |                                                   |
-| git rebase upstream/develop                                                | put my commit back on top after getting all other |
-| git push origin nssm_description                                           |                                                   |
-| git push origin setup_py_should_not_print_each_file                        |                                                   |
-| git rebase upstream/setup_py_should_not_print_each_file                    | put my commit back on top after getting all other |
+
+    git checkout -b PIECE_OF_WORK upstream/develop                             | local branch for new things                       |
+    git checkout -b PIECE_OF_WORK upstream/2015.8                              | local branch for bug fixes                        |
+    git branch -d the_local_branch_you_want_to_delete                          |                                                   |
+    git branch setup_py_should_not_print_each_file                             |                                                   |
+    git checkout setup_py_should_not_print_each_file                           |                                                   |
+    git commit -a                                                              |                                                   |
+    git log                                                                    |                                                   |
+    git rebase upstream/develop                                                | put my commit back on top after getting all other |
+    git push origin nssm_description                                           |                                                   |
+    git push origin setup_py_should_not_print_each_file                        |                                                   |
+    git rebase upstream/setup_py_should_not_print_each_file                    | put my commit back on top after getting all other |
 
 
 
