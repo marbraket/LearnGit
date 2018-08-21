@@ -1,21 +1,19 @@
 
 
-### Setup local blob of salt
-
-```
+#### Setup salt
 
 git clone https://github.com/markuskramerIgitt/salt.git
 git remote add upstream https://github.com/saltstack/salt.git
 git remote -vv
 
 
+#### Update salt
 
-|----------------------------------------------------------------------------+---------------------------------------------------|
-| * * * * Update local blob for salt                                         |                                                   |
-| git fetch --tags --all                                                     | Download from GitHub into LOCAL BLOB              |
-| git pull upstream develop   !!! (maybe merge) !!!!!!!                      | Copy from LOCAL BLOB into filesystem              |
-| git pull --all                                                             | NOT The same, at least for salt                   |
-| git push                                                                   | Update my github fork                             |
+```
+
+git fetch --tags --all
+git pull upstream develop
+git push
 
 
 |----------------------------------------------------------------------------+---------------------------------------------------|
