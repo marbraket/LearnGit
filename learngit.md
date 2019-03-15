@@ -1,4 +1,14 @@
 
+### see all commits on all branches that aren't pushed yet
+
+    git log --branches --not --remotes
+    git cherry -v
+
+
+### Undo commit  NOT pushed to remote
+    git reset HEAD~1
+    git status
+    https://git-scm.com/docs/git-reset
 
 #### Setup salt 
 
