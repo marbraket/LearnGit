@@ -1,4 +1,10 @@
 
+## Remove on git but not local (unversion)
+
+    git rm --cached FILE
+
+and add file to .gitignore
+
 ### diff on file which is committed but not pushed
 
     git diff origin FILE
