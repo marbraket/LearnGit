@@ -1,9 +1,14 @@
 
+### diff on file which is committed but not pushed
+
+    git diff origin FILE
+
 ### see all commits on all branches that aren't pushed yet
 
-    git log --branches --not --remotes
+    git diff --stat --cached origin/master
     git cherry -v
-
+    git log --branches --not --remotes
+    
 
 ### Undo commit  NOT pushed to remote
     git reset HEAD~1
