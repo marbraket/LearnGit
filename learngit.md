@@ -27,6 +27,12 @@ and add file to .gitignore
     git remote add upstream https://github.com/saltstack/salt.git
     git remote -vv
 
+#### Setup salt-enhancement-proposals
+
+    git clone https://github.com/markuskramerIgitt/salt-enhancement-proposals.git
+    git remote add upstream https://github.com/saltstack/salt-enhancement-proposals.git
+   
+
 
 #### Update salt (first local, then Github)
 
