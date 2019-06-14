@@ -76,11 +76,13 @@ and add file to .gitignore
     git pull upstream master
     git push
 
+#### local branch for new things
+
+git checkout -b PIECE_OF_WORK upstream/develop
+    git push origin PIECE_OF_WORK                                     
 
 #### Else
-
-
-    git checkout -b PIECE_OF_WORK upstream/develop                    | local branch for new things
+   
     git checkout -b PIECE_OF_WORK upstream/2015.8                     | local branch for bug fixes
     git branch -d the_local_branch_you_want_to_delete                 |
     git branch setup_py_should_not_print_each_file                    |
