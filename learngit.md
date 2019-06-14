@@ -27,6 +27,13 @@ and add file to .gitignore
     git remote add upstream https://github.com/saltstack/salt.git
     git remote -vv
 
+
+#### Local branch for new things in salt
+
+    git checkout -b PIECE_OF_WORK upstream/develop
+    git push origin PIECE_OF_WORK                                     
+
+
 #### Setup salt-enhancement-proposals
 
     git clone https://github.com/markuskramerIgitt/salt-enhancement-proposals.git
@@ -76,10 +83,6 @@ and add file to .gitignore
     git pull upstream master
     git push
 
-#### local branch for new things
-
-git checkout -b PIECE_OF_WORK upstream/develop
-    git push origin PIECE_OF_WORK                                     
 
 #### Else
    
