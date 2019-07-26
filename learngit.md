@@ -71,10 +71,14 @@ and add file to .gitignore
     git push origin +develop
 
 
-#### Setup salt-windows-msi
+#### REPO salt-windows-msi TASK setup
     git clone https://github.com/markuskramerIgitt/salt-windows-msi.git
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
 
+####  REPO salt-windows-msi  TASK Update (first local, then Github)
+
+    git pull upstream master
+    git push
 
 #### Setup/update libtorrent
     git clone https://github.com/arvidn/libtorrent.git
