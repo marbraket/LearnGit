@@ -11,8 +11,10 @@ and add file to .gitignore
 
 ### see all commits on all branches that aren't pushed yet
 
-    git diff --stat --cached origin/master
     git cherry -v
+    git diff 4ad879ee548630b6a9dd076d308acf2e667564ee^!
+
+    git diff --stat --cached origin/master
     git log --branches --not --remotes
     
 
