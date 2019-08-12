@@ -1,4 +1,8 @@
 
+## SVN-Revert a file with uncommited changes (only changed in my working copy) to the latest commit 
+
+    git checkout filename
+
 ## Remove on git but not local (unversion)
 
     git rm --cached FILE
