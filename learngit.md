@@ -34,6 +34,11 @@ and add file to .gitignore
     git remote -vv
 
 
+#### Local branch for new things in NOT-FORKED Git
+
+    git checkout -b CLEANUP origin/master
+
+
 #### Local branch for new things in salt
 
     git checkout -b PIECE_OF_WORK upstream/develop
