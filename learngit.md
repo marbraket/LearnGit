@@ -51,7 +51,12 @@ and add file to .gitignore
     git remote add upstream https://github.com/saltstack/salt-enhancement-proposals.git
    
 
+#### Update salt-windows-msi (first local, then Github)
 
+    git fetch --tags --all
+    git pull upstream master
+    git push
+    
 #### Update salt (first local, then Github)
 
     git fetch --tags --all
