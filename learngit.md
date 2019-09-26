@@ -23,6 +23,8 @@ Show diff lines
 
     git diff --cached origin/master
 
+Other commands
+
     git cherry -v
     git diff 4ad879ee548630b6a9dd076d308acf2e667564ee^!
 
