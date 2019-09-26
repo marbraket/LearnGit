@@ -16,9 +16,11 @@ and add file to .gitignore
 ### see all commits on all branches that aren't pushed yet
 
 Overview
+
     git diff --stat --cached origin/master
 
 Show diff lines
+
     git diff --cached origin/master
 
     git cherry -v
