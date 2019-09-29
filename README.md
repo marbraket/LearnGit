@@ -1,95 +1,12 @@
 LearnGit
 ========
 
+### Setup Signing
 
-Install
+[From here](https://jamesmckay.net/2016/02/signing-git-commits-with-gpg-on-windows/)
 
-    IF ON Debian:
-      apt-get install git 
-    IF ON MacOS 10.6:
-      git Version 2.2.1 from http://git-scm.com/
-    IF ON Windows:
-      browse to https://git-scm.com/download/win
-Setup
+In [gpg4win-3.1.10.exe](https://www.gpg4win.org/): import markuspgp.gpg
 
-    git config --global user.name markuskramerIgitt
-    git config --global user.email you@example.com
-    git config --system core.editor emacs
-    git config --global push.default simple
-    git config --global http.proxy xyz
-    
-Download the first time  (password)
-
-    IF YOU WANT TO STORE YOUR PASSWORD AS PLAIN TEXT:
-      git clone https://markuskramerIgitt:*******@github.com/markuskramerIgitt/LearnGit.git
-    ELSE:
-      git clone https://github.com/markuskramerIgitt/LearnGit.git
-      IF ON UNIX:
-        git config --global credential.helper cache
-        git config --global credential.helper "cache --timeout=3600"
-      IF ON WINDOWS:
-        git config --global credential.helper wincred
-
-Download the first time    (branch)
-
-    git clone -b 2015.5 --single-branch https://github.com/saltstack/salt.git
-
-Download again
-
-    git pull; 
-
-Upload 
-
-    git add .; git commit -a -m "."; git push
+sh git/config/set-git-env-Markus.sh 
 
 
-Add file gold.txt to the local "thingy"
-
-    git add gold.txt
-
-
-Undo add file gold.txt to the local "thingy"
-
-    git reset HEAD gold.txt
-
-
-Status (added files, unadded changes)
-
-    git status
-
-
-Diff what is not added   
-
-    git diff 
-
-
-Diff what is added but not "comitted".  
-
-    git diff --cached
-
-Diff what is "comitted" but not "pushed"?
-
-     TODO
-     TODO
-
-Discard local changes? 
-
-    git checkout FILE
-    git checkout -- .
-
-Show all tags (tags in Salt start with v)
-
-    git tag -l
-    
-
-Update SaltStack branch
-
-    git checkout branch1
-    git rebase develop
-    git pull
-    git push
-
-
-Links
-
-https://jamesmckay.net/2016/02/signing-git-commits-with-gpg-on-windows/
