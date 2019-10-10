@@ -43,10 +43,9 @@ Other commands
     git remote -vv
 
 
-#### Local branch for new things in NOT-FORKED Git
+#### Local branch for new things in salt-windows-msi
 
     git checkout -b CLEANUP origin/master
-
 
 #### Local branch for new things in salt
 
