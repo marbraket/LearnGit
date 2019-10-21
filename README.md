@@ -62,7 +62,8 @@ Other commands
 #### Update salt-windows-msi (first local, then Github)
 
     git fetch --tags --all
-    git pull upstream master
+    git pull --all
+    git pull upstream master    
     git push
     
 #### Update salt (first local, then Github)
