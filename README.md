@@ -66,15 +66,15 @@ Other commands
     git pull upstream master    
     git push
     
-#### Update salt (first local, then Github)
+#### Update salt (first local, then Github) MASTER STATT DEVELOP 
 
     git fetch --tags --all
     git pull upstream develop
-    git push
+    git push origin
 
-#### Checkout head branch of salt
+#### Checkout salt MASTER STATT DEVELOP
 
-    git checkout develop
+    git checkout master
 
 #### Checkout tag (a fixed point in time) of salt
 
