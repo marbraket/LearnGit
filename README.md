@@ -41,7 +41,8 @@ Other commands
     git log HEAD..origin/master
     git rebase origin/master
     git pull --rebase 
-    https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches
+    
+[SO](https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches)
 
 
 #### Setup salt 
