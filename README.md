@@ -30,11 +30,13 @@ Other commands
 
     git log --branches --not --remotes
     
-
 ### Undo commit  NOT pushed to remote
     git reset HEAD~1
     git status
     https://git-scm.com/docs/git-reset
+    
+### Undo add FILE
+    git reset FILE
     
 ### master branch and 'origin/master' have diverged
     
