@@ -3,7 +3,7 @@
  
 Repeat:
 
-  git merge --abort 
+    git merge --abort 
  
  
 ## SVN-Revert a file with uncommited changes (only changed in my working copy) to the latest commit 
