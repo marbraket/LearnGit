@@ -1,5 +1,5 @@
 
-## MERGE_HEAD exists
+## You have not concluded your merge (MERGE_HEAD exists)
  
 Repeat:
 
