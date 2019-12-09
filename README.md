@@ -1,4 +1,11 @@
 
+## MERGE_HEAD exists
+ 
+Repeat:
+
+  git merge --abort 
+ 
+ 
 ## SVN-Revert a file with uncommited changes (only changed in my working copy) to the latest commit 
 
     git checkout filename
