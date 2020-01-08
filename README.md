@@ -1,21 +1,21 @@
 
-## Resolve "You have not concluded your merge (MERGE_HEAD exists)"
+### Resolve "You have not concluded your merge (MERGE_HEAD exists)"
 Repeat:
 
     git merge --abort 
  
-## SVN::revert a file with uncommited changes (only changed in my working copy) to the latest commit 
+### SVN::revert a file with uncommited changes (only changed in my working copy) to the latest commit 
     git checkout filename
 
-## SVN::unversion (remove from version control but leave local)
+### SVN::unversion (remove from version control but leave local)
     git rm --cached FILE
 
 and add file to .gitignore
 
-## diff on file which is committed but not pushed
+### diff on file which is committed but not pushed
     git diff origin FILE
 
-## see all commits on all branches that aren't pushed yet
+### see all commits on all branches that aren't pushed yet
 Overview
 
     git diff --stat --cached origin/master
@@ -31,16 +31,16 @@ Other commands
 
     git log --branches --not --remotes
     
-## Undo commit  NOT pushed to remote
+### Undo commit  NOT pushed to remote
     git reset HEAD~1
     git status
 
 https://git-scm.com/docs/git-reset
     
-## Undo add FILE
+### Undo add FILE
     git reset FILE
     
-## Resolve "master branch and 'origin/master' have diverged"
+### Resolve "master branch and 'origin/master' have diverged"
     git log HEAD..origin/master
     git rebase origin/master
     git pull --rebase 
@@ -51,36 +51,36 @@ https://git-scm.com/docs/git-reset
     git checkout -b NEW_THINGS origin/master
     git push origin NEW_THINGS                                     
 
-## SVN::update salt-windows-msi and salt (first local, then Github)
+### SVN::update salt-windows-msi and salt (first local, then Github)
     git fetch --tags --all
     git pull --all
     git push origin
     
-## SVN::revert all local changes
+### SVN::revert all local changes
     git checkout .    | revert changes on your working copy
     git clean -n      | show delete
     git clean -f      | delete files
     git clean -fd     | delete file and folders
 
-## Setup salt 
+### Setup salt 
     git clone               https://github.com/markuskramerIgitt/salt.git
     git remote add upstream https://github.com/saltstack/salt.git
     git remote -vv
 
-## Setup salt-windows-msi
+### Setup salt-windows-msi
     git clone               https://github.com/markuskramerIgitt/salt-windows-msi.git
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
 
-## Setup salt-enhancement-proposals
+### Setup salt-enhancement-proposals
     git clone               https://github.com/markuskramerIgitt/salt-enhancement-proposals.git
     git remote add upstream https://github.com/saltstack/salt-enhancement-proposals.git
 
-## Setup/update libtorrent
+### Setup/update libtorrent
     git clone               https://github.com/arvidn/libtorrent.git
     git remote add upstream https://github.com/arvidn/libtorrent.git
     git fetch --all
     git pull upstream master
     git push
 
-## Else   
+### Else   
     git -Sfindme -p                                                   | show findme in all version
