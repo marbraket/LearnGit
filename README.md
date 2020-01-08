@@ -60,15 +60,10 @@ Other commands
     git remote add upstream https://github.com/saltstack/salt.git
     git remote -vv
 
+#### Local branch for new things 
 
-#### Local branch for new things in salt-windows-msi
-
-    git checkout -b CLEANUP origin/master
-
-#### Local branch for new things in salt
-
-    git checkout -b PIECE_OF_WORK upstream/develop
-    git push origin PIECE_OF_WORK                                     
+    git checkout -b NEW_THINGS origin/master
+    git push origin NEW_THINGS                                     
 
 
 #### Setup salt-enhancement-proposals
@@ -77,29 +72,14 @@ Other commands
     git remote add upstream https://github.com/saltstack/salt-enhancement-proposals.git
    
 
-#### Update salt-windows-msi (first local, then Github)
+#### Update salt-windows-msi and salt (first local, then Github)
 
     git fetch --tags --all
     git pull --all
-    git pull upstream master    
-    git push
-    
-#### Update salt (first local, then Github) MASTER STATT DEVELOP 
-
-    git fetch --tags --all
-    git pull upstream develop
     git push origin
+    
 
-#### Checkout salt MASTER STATT DEVELOP
-
-    git checkout master
-
-#### Checkout tag (a fixed point in time) of salt
-
-    git checkout v2016.11.1 
-
-
-#### Revert changes
+#### Revert local changes
 
     git checkout .    | revert changes on your working copy
     git clean -n      | show delete
