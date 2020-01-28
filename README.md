@@ -24,6 +24,11 @@ Show diff lines
 
     git diff --cached origin/master
 
+
+### see all branches with their latest commits and status
+
+    git branch -avv
+
 Other commands
 
     git cherry -v
@@ -52,10 +57,16 @@ https://git-scm.com/docs/git-reset
     git push origin NEW_THINGS                                     
 
 ### SVN::update salt-windows-msi and salt (first local, then Github)
+
+    git pull upstream master
+    git push origin
+
+Does not work. Why?
+
     git fetch --tags --all
     git pull --all
-    git push origin
-    
+
+
 ### SVN::revert all local changes
     git checkout .    | revert changes on your working copy
     git clean -n      | show delete
