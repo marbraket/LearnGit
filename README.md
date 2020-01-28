@@ -29,6 +29,12 @@ Show diff lines
 
     git branch -avv
 
+
+### Delete branch
+
+    git branch -d FOO
+    git push origin -d FOO
+
 Other commands
 
     git cherry -v
