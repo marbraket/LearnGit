@@ -62,15 +62,15 @@ https://git-scm.com/docs/git-reset
     git checkout -b NEW_THINGS origin/master
     git push origin NEW_THINGS                                     
 
-### SVN::update salt-windows-msi and salt (first local, then Github)
+### Update fork of salt-windows-msi and salt (first local, then Github)
 
     git pull upstream master
     git push origin
 
-Does not work. Why?
+Why does pull --all not work?
 
     git fetch --tags --all
-    git pull --all
+    git pull --all   DOES NOT WORK
 
 
 ### SVN::revert all local changes
@@ -79,20 +79,20 @@ Does not work. Why?
     git clean -f      | delete files
     git clean -fd     | delete file and folders
 
-### Setup salt 
+### Setup fork of salt 
     git clone               https://github.com/markuskramerIgitt/salt.git
     git remote add upstream https://github.com/saltstack/salt.git
     git remote -vv
 
-### Setup salt-windows-msi
+### Setup fork of salt-windows-msi
     git clone               https://github.com/markuskramerIgitt/salt-windows-msi.git
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
 
-### Setup salt-enhancement-proposals
+### Setup fork of salt-enhancement-proposals
     git clone               https://github.com/markuskramerIgitt/salt-enhancement-proposals.git
     git remote add upstream https://github.com/saltstack/salt-enhancement-proposals.git
 
-### Setup/update libtorrent
+### Setup/update fork of libtorrent
     git clone               https://github.com/arvidn/libtorrent.git
     git remote add upstream https://github.com/arvidn/libtorrent.git
     git fetch --all
