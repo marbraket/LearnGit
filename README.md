@@ -62,8 +62,10 @@ https://git-scm.com/docs/git-reset
     git checkout -b NEW_THINGS origin/master
     git push origin NEW_THINGS                                     
 
-### Update fork of salt-windows-msi and salt (first local, then Github)
+### Switch to remote branch (git clone does not clone branches) 
+    git checkout -b BRANCH origin/BRANCH
 
+### Update fork of salt-windows-msi and salt (first local, then Github)
     git pull upstream master
     git push origin
 
