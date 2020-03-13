@@ -25,10 +25,11 @@ Show diff lines
     git diff --cached origin/master
 
 
-### see all branches with their latest commits and status
+### List branches with their latest commits and status
 
     git branch -avv
 
+### List remote branches and tags
 
 ### Delete branch
 
