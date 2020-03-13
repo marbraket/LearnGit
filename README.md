@@ -26,10 +26,11 @@ Show diff lines
 
 
 ### List branches with their latest commits and status
-
     git branch -avv
 
-### List remote branches and tags
+### List remote tags
+    git fetch --tags upstream
+    git tag
 
 ### Delete branch
 
