@@ -89,15 +89,15 @@ Why does pull --all not work?
     git remote -vv
 
 ### Setup fork of salt-windows-msi
-    git clone               https://github.com/markuskramerIgitt/salt-windows-msi.git
+    git clone       https://github.com/markuskramerIgitt/salt-windows-msi.git
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
 
 ### Setup fork of salt-enhancement-proposals
-    git clone               https://github.com/markuskramerIgitt/salt-enhancement-proposals.git
+    git clone       https://github.com/markuskramerIgitt/salt-enhancement-proposals.git
     git remote add upstream https://github.com/saltstack/salt-enhancement-proposals.git
 
 ### Setup/update fork of libtorrent
-    git clone               https://github.com/arvidn/libtorrent.git
+    git clone    https://github.com/markuskramerIgitt/libtorrent.git
     git remote add upstream https://github.com/arvidn/libtorrent.git
     git fetch --all
     git pull upstream master
