@@ -113,8 +113,8 @@ Why does pull --all not work?
     git remote -vv
     git fetch --all
     git pull upstream master
-    git push    
+    git push
 
 
-### Else   
+### Else
     git -Sfindme -p                                                   | show findme in all version
