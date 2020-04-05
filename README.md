@@ -28,7 +28,7 @@ Show diff lines
 ### List branches with their latest commits and status
     git branch -avv
 
-### List remote tags
+### Retrieve remote tags from upstream
     git fetch --tags upstream
     git tag
 
