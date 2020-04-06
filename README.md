@@ -84,31 +84,31 @@ Why does pull --all not work?
     git clean -fd     | delete file and folders
 
 ### Setup fork of salt 
-    git clone               https://github.com/markuskramerIgitt/salt.git
+    git clone               https://github.com/markuskramerIgitt/salt.git && cd salt
     git remote add upstream https://github.com/saltstack/salt.git
     git remote -vv
 
 ### Setup fork of salt-windows-msi
-    git clone       https://github.com/markuskramerIgitt/salt-windows-msi.git
+    git clone       https://github.com/markuskramerIgitt/salt-windows-msi.git && cd salt-windows-msi 
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
 
 ### Setup/update fork of libtorrent
-    git clone    https://github.com/markuskramerIgitt/libtorrent.git
+    git clone    https://github.com/markuskramerIgitt/libtorrent.git && cd libtorrent
     git remote add upstream https://github.com/arvidn/libtorrent.git
     git fetch --all
     git pull upstream master
     git push
 
 ### Setup fork of pywin32
-    git clone      https://github.com/markuskramerIgitt/pywin32.git
+    git clone      https://github.com/markuskramerIgitt/pywin32.git && cd pywin32
     git remote add upstream https://github.com/mhammond/pywin32.git
     git remote -vv
     git fetch --all
     git pull upstream master
     git push
 
-### Setup fork of 
-    git clone            https://github.com/markuskramerIgitt/deluge.git
+### Setup fork of deluge
+    git clone            https://github.com/markuskramerIgitt/deluge.git && cd deluge
     git remote add upstream https://github.com/deluge-torrent/deluge.git
     git remote -vv
     git fetch --all
