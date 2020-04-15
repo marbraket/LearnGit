@@ -68,20 +68,21 @@ https://git-scm.com/docs/git-reset
     git checkout -b BRANCH origin/BRANCH
 
 ### Update master of fork of salt
-[copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync)
+[copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync) DOES NOT WORK
 
-    git fetch upstream
     git checkout master
+    git fetch upstream
     git merge --ff-only upstream/master
     git push origin master
     
-BETTER THAN 
+    
+THIS WORKS BUT MERGES
+
     git pull upstream master
-
-Why does pull --all not work?
-
     git fetch --tags --all
     git pull --all   DOES NOT WORK
+
+Why does `pull --all` not work?
 
 
 ### SVN::revert all local changes
