@@ -68,11 +68,11 @@ https://git-scm.com/docs/git-reset
     git checkout -b BRANCH origin/BRANCH
 
 ### Update master of fork of salt
-[copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync) DOES NOT WORK
+[copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync)
 
     git checkout master
     git fetch upstream
-    git merge --ff-only upstream/master
+    git merge --ff-only upstream/master || git pull --rebase origin master
     git push origin master
     
     
