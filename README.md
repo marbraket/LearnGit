@@ -67,9 +67,16 @@ https://git-scm.com/docs/git-reset
 ### Switch to remote branch (git clone does not clone branches) 
     git checkout -b BRANCH origin/BRANCH
 
-### Update fork of salt-windows-msi and salt (first local, then Github)
+### Update master of fork of salt
+[copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync)
+
+    git fetch upstream
+    git checkout master
+    git merge --ff-only upstream/master
+    git push origin master
+    
+BETTER THAN 
     git pull upstream master
-    git push origin
 
 Why does pull --all not work?
 
