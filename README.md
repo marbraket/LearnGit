@@ -114,6 +114,9 @@ Why does `pull --all` not work?
     git fetch --all
     git pull upstream master
     git push
+     - - - - -
+    pip install wheel
+    python setup.py bdist_wheel 
 
 ### Setup fork of deluge
     git clone            https://github.com/markuskramerIgitt/deluge.git && cd deluge
