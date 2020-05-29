@@ -111,9 +111,6 @@ Why does `pull --all` not work?
     git clone      https://github.com/markuskramerIgitt/pywin32.git && cd pywin32
     git remote add upstream https://github.com/mhammond/pywin32.git
     git remote -vv
-    git fetch --all
-    git pull upstream master
-    git push
      - - - - -
     pip install wheel
     python setup.py bdist_wheel 
