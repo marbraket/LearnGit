@@ -60,9 +60,11 @@ https://git-scm.com/docs/git-reset
     
 [from Stackoverflow](https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches)
 
-### Create local branch for new things 
-    git checkout -b NEW_THINGS origin/master
-    git push origin NEW_THINGS                                     
+### Create local branch for new things  TODO How to seperate?
+    git checkout -b NEW_THINGS_A origin/master
+    git checkout -b NEW_THINGS_B origin/master
+
+A and B get mixed!
 
 ### Switch to remote branch (git clone does not clone branches) 
     git checkout -b BRANCH origin/BRANCH
