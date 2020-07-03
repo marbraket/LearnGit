@@ -45,8 +45,10 @@ Other commands
     git log --branches --not --remotes
     
 ### Undo commit  NOT pushed to remote
-    git reset HEAD~1
+    git reset HEAD PATH_TO/FILE
+    git reset HEAD~1             // Does this work???
     git status
+
 
 https://git-scm.com/docs/git-reset
     
