@@ -1,32 +1,14 @@
-### This branch is 3 commits ahead of saltstack:master
+### "This branch is X commits ahead of UPSTREAM:master" 
 
-1 commit I no longer want to merge
-
-https://github.com/saltstack/salt/commit/3c454af2586411bf70f3b2ced3660db5c83cb5f4
-
-2 commit "master into blablabla"
-
-How do I get rid of the commit?
-
-### Worked
-
-git pull --rebase upstream master 
-git status
-git rm salt/grains/esxi.py
-git rebase --continue
-git pull 
-git push
-
-### Not enough
-
+#### If I want UPSTREAM and want to delete my local changes and commits:
 ```
-git fetch -p
-From https://github.com/markuskramerIgitt/salt
- - [deleted]               (none)     -> origin/NO_VSPHERE_WITHOUT_ESXI
- - [deleted]               (none)     -> origin/doc_skip_grains
+git checkout master
+git fetch upstream
+git reset --hard upstream/master
+git push --force
 ```
 
-
+https://github.community/t/syncing-a-fork-leaves-me-one-commit-ahead-of-upstream-master/1435/3
 
 
 ### Resolve "You have not concluded your merge (MERGE_HEAD exists)"
