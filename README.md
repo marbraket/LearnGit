@@ -1,3 +1,9 @@
+### Add a second remote
+git remote add cmcmarrow https://github.com/cmcmarrow/salt.git
+git fetch cmcmarrow
+git remote -vv
+git checkout code_Page_for_shell
+
 ### "This branch is X commits ahead of UPSTREAM:master" 
 
 #### If I want UPSTREAM and want to delete my local changes and commits:
