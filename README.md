@@ -82,14 +82,19 @@ https://git-scm.com/docs/git-reset
     
 [from Stackoverflow](https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches)
 
-### Create local branch for new things  TODO How to seperate?
-    git checkout -b NEW_THINGS_A origin/master
-    git checkout -b NEW_THINGS_B origin/master
+### Create local branch for new things 
 
-A and B get mixed!
+    git checkout -b NEW_THINGS 
 
-### Switch to remote branch (git clone does not clone branches) 
-    git checkout -b BRANCH origin/BRANCH
+    DO NOT ADD origin/master!!!!!!!!!!!!!!!!!! 
+    git checkout -b NEW_THINGS origin/master
+
+
+### Switch to remote branch (git clone does not clone branches)  VERIFY!!! VERIFY!!!
+
+    VERIFY!!! 
+    git checkout BRANCH origin/BRANCH
+    VERIFY!!!
 
 ### Update master of fork of salt
 [copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync)
