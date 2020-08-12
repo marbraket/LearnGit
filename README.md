@@ -68,7 +68,7 @@ Other commands
     
 ### Undo commit  NOT pushed to remote
     git reset HEAD PATH_TO/FILE
-    git reset HEAD~1             // Does this work???
+    git reset HEAD~1
     git status
 
 
