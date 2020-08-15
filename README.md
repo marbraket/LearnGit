@@ -122,6 +122,13 @@ Why does `pull --all` not work?
     git clean -f      | delete files
     git clean -fd     | delete file and folders
 
+
+### Setup fork of salt SSH
+    git clone               git@github.com:markuskramerIgitt/salt.git && cd salt
+    git remote add upstream git@github.com:saltstack/salt.git
+    git remote -vv
+
+
 ### Setup fork of salt 
     git clone               https://github.com/markuskramerIgitt/salt.git && cd salt
     git remote add upstream https://github.com/saltstack/salt.git
