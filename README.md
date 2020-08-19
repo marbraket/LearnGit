@@ -134,6 +134,14 @@ Why does `pull --all` not work?
     git remote add upstream https://github.com/saltstack/salt.git
     git remote -vv
 
+### Setup fork of salt-community
+    git clone               https://github.com/markuskramerIgitt/community.git && cd community
+    git remote add upstream https://github.com/saltstack/community.git
+    git remote -vv
+    cd ..
+    mv community salt_community
+
+
 ### Setup fork of salt-windows-msi
     git clone       https://github.com/markuskramerIgitt/salt-windows-msi.git && cd salt-windows-msi 
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
