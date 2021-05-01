@@ -123,16 +123,11 @@ Why does `pull --all` not work?
     git clean -fd     | delete file and folders
 
 
-### Setup fork of salt SSH
+### Setup fork of salt
     git clone --depth 1     git@github.com:markuskramerIgitt/salt.git && cd salt
     git remote add upstream git@github.com:saltstack/salt.git
     git remote -vv
 
-
-### Setup fork of salt 
-    git clone               https://github.com/markuskramerIgitt/salt.git && cd salt
-    git remote add upstream https://github.com/saltstack/salt.git
-    git remote -vv
 
 ### Setup fork of salt-community
     git clone               https://github.com/markuskramerIgitt/community.git && cd community
@@ -143,7 +138,7 @@ Why does `pull --all` not work?
 
 
 ### Setup fork of salt-windows-msi
-    git clone       https://github.com/markuskramerIgitt/salt-windows-msi.git && cd salt-windows-msi 
+    git clone               git@github.com:markuskramerIgitt/salt-windows-msi.git && cd salt-windows-msi 
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
 
 ### Setup/update fork of libtorrent
