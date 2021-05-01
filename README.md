@@ -124,7 +124,7 @@ Why does `pull --all` not work?
 
 
 ### Setup fork of salt SSH
-    git clone               git@github.com:markuskramerIgitt/salt.git && cd salt
+    git clone --depth 1     git@github.com:markuskramerIgitt/salt.git && cd salt
     git remote add upstream git@github.com:saltstack/salt.git
     git remote -vv
 
