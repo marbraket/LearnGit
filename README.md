@@ -124,13 +124,13 @@ Why does `pull --all` not work?
 
 
 ### Setup fork of salt
-    git clone --depth 1     git@github.com:markuskramerIgitt/salt.git && cd salt
+    git clone --depth 1     git@github.com:marbraket/salt.git && cd salt
     git remote add upstream git@github.com:saltstack/salt.git
     git remote -vv
 
 
 ### Setup fork of salt-community
-    git clone               https://github.com/markuskramerIgitt/community.git && cd community
+    git clone               https://github.com/marbraket/community.git && cd community
     git remote add upstream https://github.com/saltstack/community.git
     git remote -vv
     cd ..
@@ -138,18 +138,18 @@ Why does `pull --all` not work?
 
 
 ### Setup fork of salt-windows-msi
-    git clone               git@github.com:markuskramerIgitt/salt-windows-msi.git && cd salt-windows-msi 
+    git clone               git@github.com:marbraket/salt-windows-msi.git && cd salt-windows-msi 
     git remote add upstream https://github.com/saltstack/salt-windows-msi.git
 
 ### Setup/update fork of libtorrent
-    git clone    https://github.com/markuskramerIgitt/libtorrent.git && cd libtorrent
+    git clone    https://github.com/marbraket/libtorrent.git && cd libtorrent
     git remote add upstream https://github.com/arvidn/libtorrent.git
     git fetch --all
     git pull upstream master
     git push
 
 ### Setup fork of pywin32
-    git clone      https://github.com/markuskramerIgitt/pywin32.git && cd pywin32
+    git clone      https://github.com/marbraket/pywin32.git && cd pywin32
     git remote add upstream https://github.com/mhammond/pywin32.git
     git remote -vv
      - - - - -
@@ -157,7 +157,7 @@ Why does `pull --all` not work?
     python setup.py bdist_wheel 
 
 ### Setup fork of deluge
-    git clone            https://github.com/markuskramerIgitt/deluge.git && cd deluge
+    git clone            https://github.com/marbraket/deluge.git && cd deluge
     git remote add upstream https://github.com/deluge-torrent/deluge.git
     git remote -vv
     git fetch --all
