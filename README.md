@@ -92,9 +92,11 @@ https://git-scm.com/docs/git-reset
     git checkout -b NEW_THINGS origin/master
 
 
-### Switch to remote branch (git clone does not clone branches)  VERIFY!!! VERIFY!!!
+### Clone remote branch
+Problem 1: `git clone` does not clone branches, but `git fetch origin` does.
+Problem 2: `git fetch origin` does not clone branches if you did `git clone --depth=1`
 
-    VERIFY!!!  --depth=1 HARMFUL  HARMFUL  HARMFUL 
+
     git fetch origin
     git brach -r         // show remote branches
           FIND! origin/B1
