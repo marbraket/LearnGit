@@ -94,9 +94,13 @@ https://git-scm.com/docs/git-reset
 
 ### Switch to remote branch (git clone does not clone branches)  VERIFY!!! VERIFY!!!
 
-    VERIFY!!! 
-    git checkout BRANCH origin/BRANCH
-    VERIFY!!!
+    VERIFY!!!  --depth=1 HARMFUL  HARMFUL  HARMFUL 
+    git fetch origin
+    git brach -r         // show remote branches
+          FIND! origin/B1
+    git checkout B1
+          VERIFY!    Branch 'B1' set up to track remote branch 'B1' from 'origin'.
+          VERIFY!    Switched to a new branch 'B1'
 
 ### Update master of fork of salt
 [copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync)
