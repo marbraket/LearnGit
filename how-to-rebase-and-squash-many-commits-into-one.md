@@ -7,10 +7,14 @@
 ## 2 Update origin/master
 
     git fetch origin
+    git fetch upstream          ??
+    git pull upstream master    ??
+    
 
 ## 3 Interactive rebase B1 onto origin/master and squash
 
-    git rebase -i origin/master
+    git rebase -i origin/master    // to reduce my commits
+    git rebase -i upsteam/master   ?? to stay up to date
 
 (not covered: git rebase -i HEAD~4
 
