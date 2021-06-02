@@ -27,3 +27,8 @@ Edit to
 ## 4 push -f
 
 You must `push -f` (after the first push) because you replace the remote head of your branch with your local, potentially overwriting a 3rd party head.
+
+
+
+## Links
+https://medium.com/@dirk.avery/the-definitive-git-rebase-guide-dbd7717f9437
