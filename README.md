@@ -130,7 +130,7 @@ Why does `pull --all` not work?
 
 
 ### Setup fork of salt
-    git clone --depth 1     git@github.com:marbx/salt.git && cd salt
+    git clone               git@github.com:marbx/salt.git && cd salt
     git remote add upstream git@github.com:saltstack/salt.git
     git remote -vv
 
