@@ -50,9 +50,6 @@ Show diff lines
 ### List branches with their latest commits and status
     git branch -avv
 
-### Retrieve remote tags from upstream
-    git fetch --tags upstream
-    git tag
 
 ### Delete branch
 
@@ -123,16 +120,23 @@ Why does `pull --all` not work?
 
 
 ### SVN::revert all local changes
+
     git checkout .    | revert changes on your working copy
     git clean -n      | show delete
     git clean -f      | delete files
     git clean -fd     | delete file and folders
 
 
-### Setup fork of salt
+### Clone fork of salt and add upstream
+
     git clone               git@github.com:marbx/salt.git && cd salt
     git remote add upstream git@github.com:saltstack/salt.git
     git remote -vv
+#### Fetch also tags
+
+	git fetch --all
+    git fetch --tags upstream
+    git tag
 
 
 ### Setup fork of salt-community
