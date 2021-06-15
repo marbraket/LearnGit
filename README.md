@@ -101,22 +101,35 @@ Problem 2: `git fetch origin` does not clone branches if you did `git clone --de
           VERIFY!    Branch 'B1' set up to track remote branch 'B1' from 'origin'.
           VERIFY!    Switched to a new branch 'B1'
 
-### Update master of fork of salt
-[copied from this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync)
+### Update master branch of fork of salt
+[Salt has this doc](https://docs.saltstack.com/en/latest/topics/development/contributing.html#keeping-salt-forks-in-sync)
+
+        
+THIS WORKS 
+
+    git fetch --tags --all
+    git pull upstream master
+
+THIS DOES NOT WORK
+
+    git pull --all
+	
+	
+Rebase should not be needed because you should not work on master
 
     git checkout master
     git fetch upstream
     git merge --ff-only upstream/master || git pull --rebase origin master
     git push origin master
-    
-    
-THIS WORKS BUT MERGES
+	
 
-    git pull upstream master
-    git fetch --tags --all
-    git pull --all   DOES NOT WORK
+### Update non-master branch of fork of salt
 
-Why does `pull --all` not work?
+YOUR MASTER BRANCH MUST NOT CONTAIN WORK
+
+MAYBE THIS WORKS
+
+    git pull --rebase
 
 
 ### SVN::revert all local changes
