@@ -140,6 +140,13 @@ MAYBE THIS WORKS
     git clean -fd     | delete file and folders
 
 
+### Fork master has no changes but "This branch is X commits ahead of master"
+
+    git reset --hard upstream/master
+    git push --force
+
+Don't pull in between
+
 ### Clone fork of salt and add upstream
 
     git clone               git@github.com:marbx/salt.git && cd salt
