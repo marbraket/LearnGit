@@ -169,7 +169,7 @@ Don't pull in between
 
 ### Setup fork of salt-windows-msi
     git clone               git@github.com:marbx/salt-windows-msi.git && cd salt-windows-msi 
-    git remote add upstream https://github.com/saltstack/salt-windows-msi.git
+    git remote add upstream git@github.com:saltstack/salt-windows-msi.git
 
 ### Setup/update fork of libtorrent
     git clone    https://github.com/marbx/libtorrent.git && cd libtorrent
