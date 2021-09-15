@@ -1,5 +1,13 @@
-### Add a second remote
+### Rebase a branch to master on a forked repo
+
 ```
+git rebase master YOUR_BRANCH
+# DO NOT git pull BECAUSE IT SOMEHOW REVERTS THE REBASE
+git push --force origin
+```
+
+
+### Add a second remote
 git remote add cmcmarrow https://github.com/cmcmarrow/salt.git
 git fetch cmcmarrow
 git remote -vv
