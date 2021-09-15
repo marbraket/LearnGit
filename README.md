@@ -8,6 +8,7 @@ git push --force origin
 
 
 ### Add a second remote
+```
 git remote add cmcmarrow https://github.com/cmcmarrow/salt.git
 git fetch cmcmarrow
 git remote -vv
