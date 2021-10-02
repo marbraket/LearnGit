@@ -1,3 +1,17 @@
+### Reduce the number of commits for a pull request
+
+How many commits you want to reduce?
+
+    git log --oneline
+
+Assuming 2
+
+    git rebase -i HEAD~2
+    
+In this editor, replace the topmost `pick` with r (reword) and all `pick`'s below with f (fixup). 
+
+In the topmost line, only r (reword) is parsed, the (reworded) message in the line is ignored and after quiting the first editor a second editor opens to enter the reworded commit message.  
+    
 ### Rebase a branch to master on a forked repo
 
 ```
