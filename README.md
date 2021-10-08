@@ -1,3 +1,9 @@
+### rebase FEATUREBRANCH to master from upstream
+
+    git checkout FEATUREBRANCH
+    git pull upstream master --rebase
+
+
 ### Reduce the number of commits for a pull request
 
 How many commits you want to reduce?
